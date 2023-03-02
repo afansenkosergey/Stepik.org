@@ -1,0 +1,10 @@
+#Напишите программу, вычисляющую значение ⌈x⌉ +⌊x⌋ по заданному вещественному числу x.
+
+
+from math import ceil, floor
+
+a = float(input())
+pot = ceil(a)
+pol = floor(a)
+summ = pot + pol
+print(summ)

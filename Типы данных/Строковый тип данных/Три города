@@ -1,0 +1,20 @@
+#Даны названия трех городов. Напишите программу, которая определяет самое короткое и самое длинное название города.
+
+a,b,c = input(), input(), input()
+a1 = len(a)
+b1 = len(b)
+c1 = len(c)
+min1 = min(len(a), len(b), len(c))
+max1 = max(len(a), len(b), len(c))    
+if a1 == min1:
+    print(a)
+elif b1 == min1:
+    print(b)
+elif c1 == min1:
+    print(c)
+if a1 == max1:
+    print(a)
+elif b1 == max1:
+    print(b)
+elif c1 == max1:
+    print(c)

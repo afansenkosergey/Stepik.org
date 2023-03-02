@@ -1,0 +1,12 @@
+#Напишите программу, которая упорядочивает три числа от большего к меньшему.
+
+
+a = int(input())
+b = int(input())
+c = int(input())
+a1 = min(a, b ,c)
+b1 = max(a, b, c)
+c1 = ((a + b + c) - (a1 + b1))
+print(b1)
+print(c1)
+print(a1)
