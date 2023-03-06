@@ -1,0 +1,16 @@
+#На вход программе подается натуральное число n, а затем n различных натуральных чисел, каждое на отдельной строке.
+#Напишите программу, которая выводит наибольшее и второе наибольшее число последовательности.
+
+
+prelargest = 0
+largest = 0
+n = int(input())
+for i in range(n):
+    n1 = int(input())    
+    if n1 > largest:
+        prelargest = largest
+        largest = n1
+    elif n1 > prelargest:
+        prelargest = n1
+print(largest)
+print(prelargest) 
