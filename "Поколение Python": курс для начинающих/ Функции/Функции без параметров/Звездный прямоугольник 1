@@ -29,4 +29,4 @@ def draw_box():
     print('*' * 10)
 
 
-draw_box()  # вызов функции
+draw_box()
