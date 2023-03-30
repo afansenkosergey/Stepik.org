@@ -1,0 +1,16 @@
+#Напишите функцию print_digit_sum(), которая принимает одно целое число num и выводит на печать сумму его цифр
+
+
+
+
+def print_digit_sum(num):
+    cou = 0
+    while num != 0:
+        n = num % 10
+        cou += n
+        num = num // 10   
+    print(cou)
+
+n = int(input())
+
+print_digit_sum(n)
