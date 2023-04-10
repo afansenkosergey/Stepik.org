@@ -1,0 +1,12 @@
+#Напишите функцию is_palindrome(text), которая принимает в качестве аргумента строку text и возвращает значение True если указанный текст является палиндромом и False в противном случае.
+
+
+
+
+def is_palindrome(text):
+    text = [i.lower() for i in text if i not in (',.!?- ')]
+    return text == text[::-1]
+
+txt = input()
+
+print(is_palindrome(txt))
